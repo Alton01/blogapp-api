@@ -30,7 +30,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use('/uploads', express.static(__dirname + '/uploads'));
  
-mongoose.set('strictQuery');
+
 mongoose.connect(process.env.MONGO_URL);
  
 // ---------------------------TO CREATE A  USER -------------------------
