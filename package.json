@@ -3,7 +3,6 @@
     "version": "1.0.0",
     "main": "index.js",
     "engines": {"node": "18.x"},
-    "proxy": "https://blogapp-r3lr.onrender.com",
     "license": "MIT",
     "dependencies": {
         "bcryptjs": "^2.4.3",
